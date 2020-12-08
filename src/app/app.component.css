@@ -1,6 +1,6 @@
 .bar{
   background: linear-gradient(#000, #821cbd);
-  height: 115px;
+  height: 158px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,7 +27,7 @@
   position: absolute;
 }
 
-.bar span {
+#span-busca {
   color: white;
   position: absolute;
   margin: 34px 0 0px 321px;
@@ -35,3 +35,19 @@
   font-weight: bold;
   font-size: 10px;
 }
+
+.login {
+  color: white;
+  position: relative;
+  padding: 10px;
+  margin: -105px 43px 0 0;
+}
+
+.login span:nth-child(1) {
+  font-weight: bold;
+}
+
+.componentes-login {
+  font-size: 11px;
+}
+
