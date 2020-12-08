@@ -1,9 +1,5 @@
 .bar{
-  background-color: blue;
-  background: url('../assets/img/dark-magician.png');
-  background-position-y: -69px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(#000, #821cbd);
   height: 115px;
   display: flex;
   flex-direction: row;
@@ -32,7 +28,7 @@
 }
 
 .bar span {
-  color: coral;
+  color: white;
   position: absolute;
   margin: 34px 0 0px 321px;
   z-index: 1;
