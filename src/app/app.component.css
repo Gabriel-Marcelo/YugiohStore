@@ -22,6 +22,12 @@
 }
 
 .input-pesquisa{
-  position: relative;
-  padding: 0 461px 0 0;
+  position: absolute;
+  padding: 0 449px 12px 0;
+  margin: 0 0 0 319px;
 }
+
+.campo-de-pesquisa{
+  position: absolute;
+}
+
