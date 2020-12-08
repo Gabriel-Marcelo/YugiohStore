@@ -1,13 +1,17 @@
 .bar{
   background-color: blue;
+  background: url('../assets/img/dark-magician.png');
+  background-position-y: -69px;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 115px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  width: 100%;
 }
 .img-bar{
-  position: relative;
   width: 79px;
   height: 83px;
   margin-left: 91px;
