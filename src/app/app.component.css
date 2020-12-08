@@ -1,4 +1,5 @@
 .bar{
+  position: relative;
   background: linear-gradient(#000, #821cbd);
   height: 158px;
   display: flex;
@@ -38,9 +39,9 @@
 
 .login {
   color: white;
-  position: relative;
+  position: absolute;
   padding: 10px;
-  margin: -105px 43px 0 0;
+  margin: -50px 0 0 843px;
 }
 
 .login span:nth-child(1) {
@@ -49,5 +50,34 @@
 
 .componentes-login {
   font-size: 11px;
+}
+
+.carrinho {
+  position: relative;
+  color: white;
+  padding: 0 57px 22px 0;
+  margin: 10px 152px 0 0;
+}
+
+.carrinho span:nth-child(1) {
+  font-size: 24px;
+  position: absolute;
+  margin-top: 8px;
+}
+
+.carrinho span:nth-child(2) {
+  position: absolute;
+  margin: 7px 0px 0 31px;
+}
+
+
+#valor-compra {
+  font-weight: bold;
+  position: absolute;
+  margin: 5px 0 0 32px;
+}
+
+.font-carrinho {
+  font-size: 10px;
 }
 
