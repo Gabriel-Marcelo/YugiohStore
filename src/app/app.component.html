@@ -4,6 +4,14 @@
     class="img-bar"
 
   />
+  <div class="input-pesquisa">
+    <nz-input-group [nzSuffix]="suffixIconSearch">
+      <input type="text" nz-input placeholder="input search text" />
+    </nz-input-group>
+    <ng-template #suffixIconSearch>
+      <i nz-icon nzType="search"></i>
+    </ng-template>
+  </div>
 </div>
 <router-outlet></router-outlet>
 
