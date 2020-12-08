@@ -31,3 +31,11 @@
   position: absolute;
 }
 
+.bar span {
+  color: coral;
+  position: absolute;
+  margin: 34px 0 0px 321px;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 10px;
+}
