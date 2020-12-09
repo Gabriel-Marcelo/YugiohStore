@@ -12,16 +12,17 @@
 .img-bar{
   width: 79px;
   height: 83px;
-  margin-left: 91px;
-  border-style: solid;
   border-radius: 30px;
   border-width: 0;
+  position: relative;
+  left: 4%;
 }
 
 .input-pesquisa{
   position: absolute;
-  padding: 0 449px 12px 0;
-  margin: 0 0 0 319px;
+  padding: 0 452px 12px 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .campo-de-pesquisa{
@@ -31,17 +32,19 @@
 #span-busca {
   color: white;
   position: absolute;
-  margin: 34px 0 0px 321px;
   z-index: 1;
   font-weight: bold;
   font-size: 10px;
+  bottom: 24%;
+  left: 29.4%;
 }
 
 .login {
   color: white;
   position: absolute;
   padding: 10px;
-  margin: -50px 0 0 843px;
+  right: 61px;
+  top: 0;
 }
 
 .login span:nth-child(1) {
@@ -53,31 +56,29 @@
 }
 
 .carrinho {
-  position: relative;
+  position: absolute;
   color: white;
-  padding: 0 57px 22px 0;
-  margin: 10px 152px 0 0;
+  right: 11%;
+  bottom: 28%;
 }
 
 .carrinho span:nth-child(1) {
-  font-size: 24px;
-  position: absolute;
-  margin-top: 8px;
+  font-size: 19px;
+  position: relative;
+  top: 2%;
+  left: 0;
 }
 
 .carrinho span:nth-child(2) {
-  position: absolute;
-  margin: 7px 0px 0 31px;
+  position: relative;
+  margin-left: 8px;
+  top: -2px;
 }
 
 
 #valor-compra {
   font-weight: bold;
-  position: absolute;
-  margin: 5px 0 0 32px;
-}
-
-.font-carrinho {
-  font-size: 10px;
+  position: relative;
+  left: 5%;
 }
 
