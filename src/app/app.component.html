@@ -13,15 +13,22 @@
     </ng-template>
     <span id="span-busca">Busca Avançada</span>
   </div>
-<!--  <div class="login">-->
-<!--    <span>Criar meu cadastro</span><br>-->
-<!--    <span class="componentes-login">Efetuar Login</span> <span class="componentes-login"> | </span> <span class="componentes-login">Recuperar Senha</span>-->
-<!--  </div>-->
-<!--  <div class="carrinho">-->
-<!--    <span><i nz-icon nzType="shopping-cart" nzTheme="outline"></i></span>-->
-<!--    <span class="font-carrinho">Carrinho</span><br>-->
-<!--    <span id="valor-compra" class="font-carrinho">R$100,00</span>-->
-<!--  </div>-->
+  <div class="login-carrinho-menu">
+    <i nz-icon nzType="login" nzTheme="outline" class="login-carrinho-menu-itens login-carrinho-menu-tamanho-icons"></i>
+    <div class="login-carrinho-menu-itens">
+      <i nz-icon nzType="shopping-cart" nzTheme="outline" class="login-carrinho-menu-tamanho-icons"></i>
+      <nz-badge [nzCount]="0" nzShowZero> </nz-badge>
+    </div>
+    <a nz-dropdown nzTrigger="click" [nzDropdownMenu]="menu" class="menu">
+      <i nz-icon nzType="menu" nzTheme="outline" class="login-carrinho-menu-tamanho-icons"></i>
+    </a>
+    <nz-dropdown-menu #menu="nzDropdownMenu">
+      <ul nz-menu>
+        <li nz-menu-item>Produtos</li>
+        <li nz-menu-item>Serviços</li>
+      </ul>
+    </nz-dropdown-menu>
+  </div>
 </div>
 <router-outlet></router-outlet>
 

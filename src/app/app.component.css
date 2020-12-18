@@ -15,7 +15,7 @@
   position: absolute;
   border-radius: 30px;
   border-width: 0;
-  left: 4%;
+  left: 7%;
   top: 11%;
 }
 
@@ -30,6 +30,31 @@
   color: white;
   font-size: 12px;
 }
+
+
+.login-carrinho-menu {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 24px;
+  right: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login-carrinho-menu-itens {
+  margin-right: 29px;
+}
+
+.login-carrinho-menu-tamanho-icons {
+  font-size: 38px;
+}
+
+.menu {
+  color: white;
+}
+
 
 /*.input-pesquisa input {*/
 /*  position: relative;*/
