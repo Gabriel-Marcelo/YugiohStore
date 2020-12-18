@@ -51,6 +51,16 @@
   font-size: 38px;
 }
 
+.carrinho {
+  position: relative;
+}
+
+#badge-carrinho {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+}
+
 .menu {
   color: white;
 }

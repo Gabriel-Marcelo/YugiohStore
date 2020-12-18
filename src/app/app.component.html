@@ -15,9 +15,9 @@
   </div>
   <div class="login-carrinho-menu">
     <i nz-icon nzType="login" nzTheme="outline" class="login-carrinho-menu-itens login-carrinho-menu-tamanho-icons"></i>
-    <div class="login-carrinho-menu-itens">
+    <div class="login-carrinho-menu-itens carrinho">
       <i nz-icon nzType="shopping-cart" nzTheme="outline" class="login-carrinho-menu-tamanho-icons"></i>
-      <nz-badge [nzCount]="0" nzShowZero> </nz-badge>
+      <nz-badge [nzCount]="1" [nzStyle]="{ backgroundColor: 'white', color: 'black' }"  nzShowZero id="badge-carrinho"></nz-badge>
     </div>
     <a nz-dropdown nzTrigger="click" [nzDropdownMenu]="menu" class="menu">
       <i nz-icon nzType="menu" nzTheme="outline" class="login-carrinho-menu-tamanho-icons"></i>
